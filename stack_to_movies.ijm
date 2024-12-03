@@ -5,7 +5,7 @@ list=getFileList(orig_dir);
 list=Array.sort(list);
 
 // create the 1st order saving directory
-result_main_dir = "D:/McGill_Data/FRAP"+ File.separator + "images_movies"  + File.separator;
+result_main_dir = "the direcotry of folder"+ File.separator + "images_movies"  + File.separator;
 File.makeDirectory(result_main_dir);
 var result_dir_created = false; // define final saving folder as a variable
 
